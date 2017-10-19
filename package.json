@@ -1,0 +1,48 @@
+{
+  "name": "magicmirrorbot",
+  "version": "0.1.0",
+  "description": "Magic Mirror Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theopenbots/magicmirrorbot.git"
+  },
+  "keywords": [
+    "magic",
+    "mirror",
+    "bot"
+  ],
+  "author": "Emmanuel Gautier",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/theopenbots/magicmirrorbot/issues"
+  },
+  "homepage": "https://github.com/theopenbots/magicmirrorbot#readme",
+  "standard": {
+    "globals": [
+      "_",
+      "assert"
+    ]
+  },
+  "dependencies": {
+    "assert": "^1.4.1",
+    "async": "^2.5.0",
+    "botbuilder": "^3.11.0",
+    "dotenv": "^4.0.0",
+    "lodash": "^4.17.4",
+    "restify": "^6.2.3",
+    "winston": "^2.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "standard": "^10.0.3"
+  }
+}
